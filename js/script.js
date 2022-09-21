@@ -101,7 +101,6 @@ function CheckLadderAndSnakes()
 function move(direction)
 {
     return new Promise(async(resolve,reject)=>{
-        new Audio('image/move.mp3').play()
         if(direction=='up')
         {
             document.querySelector(`#${turn}`).style.marginTop= String(marginTop() - 9.8) +'vmin'

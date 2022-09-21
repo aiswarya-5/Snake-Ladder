@@ -21,7 +21,16 @@ body{
     text-align: center;
     line-height: 9.601vmin;
     font-size: 2.5vmin;
-    background-color: lightgreen;
+    
+}
+.box1{
+	background-color: #9992e0;
+}
+.box2{
+	background-color: #ca9ae4;
+}
+.box3{
+	background-color: #eb9ced;
 }
 #side{
     position: absolute;
@@ -30,7 +39,7 @@ body{
     height: 25vmin;
     width: 35vmin;
     border: 0.2vmin solid black;
-    background-color: lightgreen;
+    background-color: #eb9ced;
     text-align: center;
     font-size: 3.5vmin;
 }
